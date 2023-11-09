@@ -1,18 +1,13 @@
 ﻿using Dapper;
 using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.Data.SqlClient;
-
 using DataLoggerWS.models;
 using System.Data.SqlTypes;
 using NLog;
 
 namespace DataLoggerWS.core
 {
-
-
-
     public interface IDataAccess
     {
         int CreateFile(string _fileName);
